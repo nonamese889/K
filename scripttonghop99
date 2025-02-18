@@ -203,7 +203,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs
   end
   })
 
-  
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
