@@ -146,11 +146,6 @@ getgenv().Hide_Menu = false
 loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "ThundarZ (key)",
-    Callback = function()
-	  loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()
-  end
-  })   AddButton(Tab1o, {
      Name = "bắp red",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
@@ -164,11 +159,6 @@ loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
      Name = "cuttay hub auto gạt cần",
     Callback = function()
 	  loadstring(game:HttpGet('https://github.com/diemquy/CutTayHub/blob/main/Cuttayhubreal.lua'))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "volcano hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
   end
   })   AddButton(Tab1o, {
      Name = "donki hub",
@@ -196,11 +186,6 @@ loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
 	  loadstring(game:HttpGetAsync("https://lua-library.btteam.net/script-auth.txt"))()
   end
   })   AddButton(Tab1o, {
-     Name = "angery hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://gist.githubusercontent.com/angry5/ec20347a74aa4e46c71b15b6093eeaf5/raw/Angery.lua"))()
-  end
-  })   AddButton(Tab1o, {
      Name = "quantumOnyx",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua"))()
@@ -211,44 +196,13 @@ loadstring(game:HttpGet("https://apixerohub.x10.mx/main.lua"))()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
   })   AddButton(Tab1o, {
-     Name = "omg hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "alchemy hub (key)",
-    Callback = function()
-	  loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
-  end
-  })   AddButton(Tab1o, {
      Name = "auto fruit (turbo)",
     Callback = function()
 	  _G.Team_HaiTac = true
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs/heads/main/TraiCay.lua"))()
   end
-  })   AddButton(Tab1o, {
-     Name = "sukuna tele (chỉ bloxfruit)",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/Sukuna.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "ronix",
-    Callback = function()
-	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/513ccdb3ae8a61d4d7698fc337e5256d.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "master hub (doraemon)(không nên dùng nhiều!)",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "hoho hub (key)",
-    Callback = function()
-	  _G.HohoVersion = "v4"
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
-  end
   })
+
   
 ----- Dropdown 
 
